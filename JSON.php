@@ -118,6 +118,14 @@ define('SERVICES_JSON_USE_TO_JSON', 64);
  */
 class Services_JSON
 {
+   public $use;
+   
+   public $_mb_strlen;
+   
+   public $_mb_convert_encoding;
+   
+   public $_mb_substr;
+   
    /**
     * constructs a new JSON instance
     *
